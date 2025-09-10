@@ -1,5 +1,8 @@
 package src.main.projects.src_ProyectoButacas;
 
+import java.io.IOException;
+import java.util.Scanner;
+
 public class ValidateOBJ{
     public static String valOption(String text, String option, Scanner scanner) throws IOException {
         

@@ -1,5 +1,17 @@
 package src.main.projects.src_ProyectoButacas.validateItem;
 
+
+import java.io.IOException;
+import java.nio.file.Paths;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeParseException;
+import java.util.InputMismatchException;
+import java.util.Locale;
+import java.util.Scanner;
+
+
 public class Validate{
 
     public static int valUnsoldSeats1(int[][][] cinemaMatrix, int movieOption, int showTimeOption){
