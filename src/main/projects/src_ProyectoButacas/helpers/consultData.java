@@ -80,4 +80,19 @@ public class consultData {
 
         return null;
     }
+
+    public static int[] consultIndexByData(Scanner archive,String data,int[] index){
+
+        if (!archive.hasNextLine()) {
+            return null;
+        }
+
+        String[] names=archive.nextLine().split("/");
+        int i = IndexLine(names,data);
+
+        if(i>=0){
+            return new int[]{index[0],i};
+        }
+        return consultIndexByData(archive,data,new int[]{index[0]=index[0]+1,i});
+    }
 }
