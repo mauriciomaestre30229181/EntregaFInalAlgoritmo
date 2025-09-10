@@ -113,4 +113,57 @@ public class Process {
         }
     }
 
+    public static void purchaseProcessMiddle(int[][][] cinemaMatrix, String[] movieSchedule, int movieOption) throws IOException {
+        String text, text2;
+        int x = 0, showTimeOption;
+
+        if (cinemaMatrix != null && movieSchedule != null) {
+            for (int ctrl = 0; ctrl < cinemaMatrix[0].length; ctrl++) {
+                text2 = " + Ingrese [" + (++x) + "] Si desea asistir a [" + MOVIE_LISTINGS[movieOption - 1] + "] en el HORARIO de las [" + movieSchedule[ctrl] + "].";
+                System.out.println(text2);
+            }
+            text = "- Ingrese el numero de la opcion escogida por el cliente: ";
+            showTimeOption = Validate.valInt(text, cinemaMatrix[0].length); //VALIDAR 6 HORARIOS MAX POR DIA
+            switch (showTimeOption) {
+                case 1, 2, 3, 4, 5, 6:
+                    purchaseProcessFinal(cinemaMatrix,  movieOption, showTimeOption);
+                    break;
+            }
+        }
+    }
+
+    public static void purchaseProcessFinal(int[][][] cinemaMatrix, int movieOption, int showTimeOption) throws IOException {
+        String text, text2;
+        int x, k, ticketPrice = 0;
+        int option, numbersOfTicket, availableSeats, cicleDuration;
+
+        if (cinemaMatrix != null) {
+            availableSeats = Validate.valUnsoldSeats1(cinemaMatrix, movieOption, showTimeOption);
+            System.out.println("- Hay solo " + availableSeats + " butacas disponibles");
+            text = " + Ingrese cuantas entradas el cliente desea: ";
+            numbersOfTicket = Validate.valInt(text, availableSeats);
+            x = 0;
+            for (String ageClassification : AGE_CLASSIFICATIONS) {
+                text2 = " + Ingrese [" + (++x) + "] Si la entrada es para un " + ageClassification;
+                System.out.println(text2);
+            }
+            x = 0;
+            k = (cinemaMatrix[0][0].length - availableSeats);
+            cicleDuration = numbersOfTicket + k;
+            for (; k < cicleDuration; k++) {
+                text = "- Ingrese el numero de la opcion escogida para la entrada [" + (++x) + "]: ";
+                option = Validate.valInt(text, 3, 1);
+                if (option == 1) {
+                    ticketPrice = 3;
+                } else if (option == 2) {
+                    ticketPrice = 2;
+                } else if (option == 3) {
+                    ticketPrice = 1;
+                }
+                cinemaMatrix[movieOption - 1][showTimeOption - 1][k] = ticketPrice;
+            }
+        }
+    }
+
+
 }
