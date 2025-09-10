@@ -1,6 +1,7 @@
 package main.projects.src_ProyectoButacas.process;
 
 import java.io.IOException;
+import src.main.projects.src_ProyectoButacas.validateItem.*;
 
 import cinema.Validate.Validate;
 
