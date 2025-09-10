@@ -95,4 +95,39 @@ public class consultData {
         }
         return consultIndexByData(archive,data,new int[]{index[0]=index[0]+1,i});
     }
+
+    public static int IndexLine(String[] names,String data){
+        
+        for (int i = 0; i < names.length; i++) {
+            if(names[i].equals(data)){
+                return i;
+            }
+        }
+        return -1;
+    }
+
+    public static String dataIndex(String[]bill,int colum){
+
+        for (int i = 0; i < bill.length; i++) {
+            if (i==colum) {
+                return bill[i];
+            }
+        }
+        return null;
+    }
+    
+    public static String consultDataByIndex(Scanner archive,int[] index, int rowFound){
+
+        if (!archive.hasNextLine()) {
+            return null;
+        }
+
+        String[] bill=archive.nextLine().split("/");
+
+        if (index[0]==rowFound) {
+            return dataIndex(bill,index[1]);
+            
+        }
+        return consultDataByIndex(archive,index,rowFound+1);
+    }
 }
