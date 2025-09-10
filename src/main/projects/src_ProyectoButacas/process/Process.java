@@ -79,4 +79,38 @@ public class Process {
 
     }
 
+    public static void purchaseProcessStart(int[][][] cinemaMatrix, String[] movieSchedule,String user) throws IOException {
+        int band, x;
+        int movieOption;
+        String text, text2;
+        
+        if (cinemaMatrix != null && movieSchedule != null) {
+            while (true) {
+                text="Cliente en fila: "+user;
+                System.out.println(text);
+                text = "\n- Ingrese [0] para iniciar el proceso de compra del cliente / Ingrese [1] para pasar al siguiente: ";
+                band = Validate.valInt(text, 1, 0);  // VALIDAR INT
+                if (band == 0) {
+                    System.out.println("\n_____________________INICIO DEL PROCESO DE COMPRA_____________________");
+                    System.out.println("- Indique a cual de estos peliculas el cliente desea asistir");
+                    x = 0;
+                    for (int ctrl = 0; ctrl < cinemaMatrix.length; ctrl++) {
+                        text2 = " + Ingrese [" + (++x) + "] Si desea asistir a la pelicula [" + MOVIE_LISTINGS[ctrl] + "].";
+                        System.out.println(text2);
+                    }
+                    text = "- Ingrese el numero de la opcion escogida por el cliente: ";
+                    movieOption = Validate.valInt(text, 7);
+                    switch (movieOption) {
+                        case 1, 2, 3, 4, 5, 6, 7:
+
+                            purchaseProcessMiddle(cinemaMatrix, movieSchedule, movieOption);
+                            break;
+                    }
+                } else {
+                    break;
+                }
+            }
+        }
+    }
+
 }
