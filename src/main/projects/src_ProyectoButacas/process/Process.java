@@ -165,5 +165,23 @@ public class Process {
         }
     }
 
+    public static void calcRevenueLosses(int[][][] cinemaMatrix, int[][] revenue, int[] losses) {
+        int sum;
+
+        if (cinemaMatrix != null && revenue != null) {
+            for (int i = 0; i < cinemaMatrix.length; i++) {
+                for (int j = 0; j < cinemaMatrix[0].length; j++) {
+                    sum=0;
+                    for (int k = 0; k < cinemaMatrix[0][0].length; k++) {
+                        sum += cinemaMatrix[i][j][k];
+                    }
+                    losses[i] += Validate.valUnsoldSeats2(cinemaMatrix, i, j);
+                    revenue[i][j] = sum;
+                    revenue[i][cinemaMatrix[0].length] += revenue[i][j];
+                }
+            }
+        }
+    }
+
 
 }
