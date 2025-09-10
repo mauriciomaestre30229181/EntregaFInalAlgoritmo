@@ -1,10 +1,10 @@
-package src.main.projects.src_ProyectoButacas;
+package src_ProyectoButacas;
 
-import cine.composablesData.storeMain;
-import cine.helpers.*;
-import cine.objects.*;
-import cine.process.processMain;
-import cine.validateItem.*;
+import src_ProyectoButacas.composablesData.storeMain;
+import src_ProyectoButacas.helpers.*;
+import src_ProyectoButacas.objects.*;
+import src_ProyectoButacas.process.processMain;
+import src_ProyectoButacas.validateItem.*;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.file.Paths;

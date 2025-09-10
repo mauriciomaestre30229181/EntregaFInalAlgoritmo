@@ -1,4 +1,4 @@
-package src.main.projects.src_ProyectoButacas;
+package src_ProyectoButacas.validateItem;
 
 import java.io.IOException;
 import java.util.Scanner;

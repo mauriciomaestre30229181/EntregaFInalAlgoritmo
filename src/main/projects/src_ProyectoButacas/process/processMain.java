@@ -1,6 +1,7 @@
-package main.projects.src_ProyectoButacas.process;
+package src_ProyectoButacas.process;
 
 import java.io.IOException;
+
 
 public class processMain {
     public static void processIni(int[][]revenue, int[][][]cinema,int[]losses,String[]movies, String[] users,int[]id){

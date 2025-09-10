@@ -1,7 +1,7 @@
-package main.projects.src_ProyectoButacas.process;
+package src_ProyectoButacas.process;
 
 import java.io.IOException;
-import src.main.projects.src_ProyectoButacas.validateItem.*;
+import src_ProyectoButacas.validateItem.*;
 
 public class Process {
     public static void iniMatrix(int[][][] cinema) {
