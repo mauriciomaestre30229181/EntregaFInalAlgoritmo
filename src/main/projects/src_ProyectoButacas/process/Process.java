@@ -3,8 +3,6 @@ package main.projects.src_ProyectoButacas.process;
 import java.io.IOException;
 import src.main.projects.src_ProyectoButacas.validateItem.*;
 
-import cinema.Validate.Validate;
-
 public class Process {
     public static void iniMatrix(int[][][] cinema) {
         if (cinema != null) {
