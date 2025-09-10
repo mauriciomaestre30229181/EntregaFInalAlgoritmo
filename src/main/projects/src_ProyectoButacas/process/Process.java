@@ -32,4 +32,22 @@ public class Process {
         }
     }
 
+    public static void iniArray(String[] array) {
+        if (array != null) {
+            for (int i = 0; i < array.length; i++) {
+                array[i] = "";
+            }
+        }
+    }
+
+    public static final String[] MOVIE_LISTINGS = {
+            "Avatar", "Top gun: Maverick", "Avengers: End Game",
+            "Oppenheimer", "Titanic", "Mission: Impossible",
+            "Rapidos y Furiosos"
+    };
+
+    public static final String[] AGE_CLASSIFICATIONS = {
+            "Adulto General => Precio: 3$", "Niño [Hasta los 14 años] =>  Precio: 2$", "Adulto de la Tercera Edad => Precio: 1$"
+    };
+
 }
