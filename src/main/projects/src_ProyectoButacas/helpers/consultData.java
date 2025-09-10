@@ -7,6 +7,7 @@ import java.util.Objects;
 import java.util.Scanner;
 
 import cinema.Validate.Validate;
+import main.projects.src_ProyectoButacas.objects.Bill;
 
 
 public class consultData {
@@ -129,5 +130,22 @@ public class consultData {
             
         }
         return consultDataByIndex(archive,index,rowFound+1);
+    }
+
+    public static void showCaseName(String data,Name userDefault,Bill billDefault){
+        try {
+            if (userDefault!=null) {
+                System.out.println("\n------------------------------");
+                System.out.println("\n         Datos Solicitados \n Serial Archivo="+userDefault.getSerial()+"\n Nombre Cliente="+data+"\n Valor Cuenta="+billDefault.getBill());
+                System.out.println("\n------------------------------");
+            }else{
+                System.out.println("\n------------------------------");
+                System.out.println("\n         Datos Solicitados          ");
+                System.out.println("\nNombre Cliente="+data+" No se encontraron datos");
+            }
+        } catch (IllegalArgumentException e) {
+            System.out.println("Error ["+e.getMessage()+"]");
+        }
+
     }
 }
