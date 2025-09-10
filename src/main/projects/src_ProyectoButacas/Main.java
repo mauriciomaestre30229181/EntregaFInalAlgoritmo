@@ -1,4 +1,4 @@
-package cine;
+package src.main.projects.src_ProyectoButacas;
 
 import cine.composablesData.storeMain;
 import cine.helpers.*;
