@@ -1,0 +1,8 @@
+nombre,cedula,genero,plan,clase,horario
+Gabriela Pérez,30876543,F,Plan de Entrenamiento Mensual Estudiantil,Power Body,7:00AM
+Juliana Peña,28206067,F,Plan de Entrenamiento Mensual General,Funcionales,8:00AM
+Ana Rodríguez,28274288,F,Plan de Entrenamiento Mensual General,Pilates,2:45PM
+Mauricio Maestre,30229181,M,Plan de Entrenamiento Mensual Estudiantil,Pilates,3:15PM
+Miguel Maestre,29750704,M,Plan de Entrenamiento Mensual General,Pilates,4:15PM
+Gabriela Chiaramonte,31541738,F,Plan de Entrenamiento Mensual Estudiantil,Pilates,3:15PM
+Haymara D'Armas,12959357,F,Plan de Entrenamiento Mensual Estudiantil,Cardio Step,6:23AM
