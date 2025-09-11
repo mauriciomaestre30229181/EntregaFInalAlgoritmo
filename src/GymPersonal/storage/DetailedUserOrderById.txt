@@ -1,0 +1,9 @@
+
+╔══════════════════════════════════════════════════════════════╗
+║                       DATOS SOLICITADOS                      ║
+╠══════════════════════════════════════════════════════════════╣
+║  USUARIO: Mauricio Maestre                                   ║
+║  CEDULA: 30229181                                            ║
+║  PLAN: Plan de Nutricion Semanal                             ║
+║  ORDEN: Ensalada de pollo a la plancha con quinoa y aguacate ║
+╚══════════════════════════════════════════════════════════════╝
