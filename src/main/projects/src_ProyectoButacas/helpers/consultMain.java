@@ -3,8 +3,8 @@ package src_ProyectoButacas.helpers;
 
 import java.io.IOException;
 import java.util.Scanner;
-
 import src_ProyectoButacas.objects.ArchiveUtil;
+import src_ProyectoButacas.objects.Name;
 
 public class consultMain {
     public static void consultDataMain(String option, ArchiveUtil storage)throws IOException {

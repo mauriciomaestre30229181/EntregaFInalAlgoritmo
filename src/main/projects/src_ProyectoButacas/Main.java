@@ -26,7 +26,7 @@ public class Main {
         int showTimesQuant, seatsQuant, usersQuant;
         int moviesQuant = 7;
 
-        String router=Paths.get("").toRealPath().toString()+"/src/cine/storage/";
+        String router=Paths.get("").toRealPath().toString()+"/src/main/projects/src_ProyectoButacas/storage/";
 
         try {
             storage= new ArchiveUtil(router);
