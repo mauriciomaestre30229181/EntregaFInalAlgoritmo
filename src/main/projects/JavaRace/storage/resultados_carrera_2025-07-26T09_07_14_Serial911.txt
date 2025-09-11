@@ -1,0 +1,6 @@
+                   |             Inicio del programa                 |
+Posición           |              Piloto/Tiempo/Estado                    |    Vehículo/Patrocinador
+----------------------------------------------------------------------------------------------------
+1º lugar        | sdsd            | 102,00   seg | Excelente | dfdfs      | dfsgf          
+----------------------------------------------------------------------------------------------------
+                   |             Fin del programa                 |
