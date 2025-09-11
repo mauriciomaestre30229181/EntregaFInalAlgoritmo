@@ -1,6 +1,6 @@
-package GymPersonal.process;
+package main.projects.GymPersonal.process;
 
-import GymPersonal.main.Main;
+import main.projects.GymPersonal.main.Main;
 
 import java.io.IOException;
 

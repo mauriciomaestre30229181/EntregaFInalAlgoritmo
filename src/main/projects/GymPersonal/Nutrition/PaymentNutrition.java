@@ -1,15 +1,15 @@
-package GymPersonal.Nutrition;
+package main.projects.GymPersonal.Nutrition;
 
-import GymPersonal.composables.StoreArchive;
-import GymPersonal.repositories.ArchiveUtil;
-import GymPersonal.validateItem.Validate;
+import main.projects.GymPersonal.composables.StoreArchive;
+import main.projects.GymPersonal.repositories.ArchiveUtil;
+import main.projects.GymPersonal.validateItem.Validate;
 
 import java.io.IOException;
 import java.nio.file.Paths;
 
-import static GymPersonal.Nutrition.BookingNutrition.*;
-import static GymPersonal.process.BookingTraining.*;
-import static GymPersonal.process.PaymentTraining.confirm;
+import static main.projects.GymPersonal.Nutrition.BookingNutrition.*;
+import static main.projects.GymPersonal.process.BookingTraining.*;
+import static main.projects.GymPersonal.process.PaymentTraining.confirm;
 
 
 public class PaymentNutrition {

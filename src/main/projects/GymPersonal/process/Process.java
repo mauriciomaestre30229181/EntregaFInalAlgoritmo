@@ -1,12 +1,12 @@
-package GymPersonal.process;
+package main.projects.GymPersonal.process;
 
-import GymPersonal.Nutrition.BookingNutrition;
-import GymPersonal.composables.StoreMain;
-import GymPersonal.helpers.ConsultData;
-import GymPersonal.main.Main;
-import GymPersonal.repositories.Nutrition;
-import GymPersonal.repositories.Statitics;
-import GymPersonal.validateItem.Validate;
+import main.projects.GymPersonal.Nutrition.BookingNutrition;
+import main.projects.GymPersonal.composables.StoreMain;
+import main.projects.GymPersonal.helpers.ConsultData;
+import main.projects.GymPersonal.main.Main;
+import main.projects.GymPersonal.repositories.Nutrition;
+import main.projects.GymPersonal.repositories.Statitics;
+import main.projects.GymPersonal.validateItem.Validate;
 
 import java.io.IOException;
 
