@@ -1,0 +1,10 @@
+Factura
+Mesa: 20
+
+Cliente: david
+-----------------------------------------------------------
+agua - Cantidad: 1 - Precio: $10.0 - Subtotal: $10.0
+Total de david: $10.0
+
+-----------------------------------------------------------
+Total General de la Mesa: $10.0

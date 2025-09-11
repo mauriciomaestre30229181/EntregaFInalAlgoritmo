@@ -1,0 +1,23 @@
+Factura
+Mesa: 25
+
+Cliente: migdalis
+-----------------------------------------------------------
+cafe con leche - Cantidad: 2 - Precio: $25.0 - Subtotal: $50.0
+pan dulce - Cantidad: 3 - Precio: $20.0 - Subtotal: $60.0
+Total de migdalis: $110.0
+
+Cliente: alejandro
+-----------------------------------------------------------
+cafe - Cantidad: 1 - Precio: $50.0 - Subtotal: $50.0
+Total de alejandro: $50.0
+
+Cliente: valeria
+-----------------------------------------------------------
+jugo de fresa - Cantidad: 4 - Precio: $35.0 - Subtotal: $140.0
+torta de chocolate - Cantidad: 2 - Precio: $30.0 - Subtotal: $60.0
+galleta - Cantidad: 3 - Precio: $15.0 - Subtotal: $45.0
+Total de valeria: $245.0
+
+-----------------------------------------------------------
+Total General de la Mesa: $405.0
