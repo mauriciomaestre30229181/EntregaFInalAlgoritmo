@@ -1,7 +1,0 @@
-                   |             Inicio del programa                 |
-Posición           |              Piloto/Tiempo/Estado                    |    Vehículo/Patrocinador
-----------------------------------------------------------------------------------------------------
-1º lugar        | freddy          | 38,00    seg | Excelente | aveo       | INTER          
-2º lugar        | alessandro      | 682,00   seg | Regular   | chevrolet  | toyota         
-----------------------------------------------------------------------------------------------------
-                   |             Fin del programa                 |
