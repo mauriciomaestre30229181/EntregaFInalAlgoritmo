@@ -1,11 +1,8 @@
 package src_ProyectoButacas.composablesData;
 
-import src_ProyectoButacas.validateItem.*;
-import src_ProyectoButacas.objects.*;
 import java.time.LocalDateTime;
-
-import cinema.Validate.Validate;
-import main.projects.src_ProyectoButacas.objects.ArchiveUtil;
+import src_ProyectoButacas.objects.*;
+import src_ProyectoButacas.validateItem.Validate;
 
 public class storeArchive {
     static int rand=(int)(Math.random()*100 + 1);

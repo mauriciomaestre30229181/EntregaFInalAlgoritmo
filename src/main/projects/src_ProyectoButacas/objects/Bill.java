@@ -1,4 +1,4 @@
-package main.projects.src_ProyectoButacas.objects;
+package src_ProyectoButacas.objects;
 
 public class Bill {
     private double bill;
@@ -6,7 +6,6 @@ public class Bill {
 
     public Bill(double bill, String serialNumber){
         this.utilValBill(bill);
-        this.
     }
 
     public double getBill(){

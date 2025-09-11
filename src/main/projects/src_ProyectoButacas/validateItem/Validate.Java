@@ -11,6 +11,8 @@ import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;
 
+import src_ProyectoButacas.objects.ArchiveUtil;
+import src_ProyectoButacas.composablesData.storeArchive;
 
 public class Validate{
 
@@ -136,7 +138,7 @@ public class Validate{
 
     public static void addError(String error) throws IOException {
         ArchiveUtil storage=new ArchiveUtil(Paths.get("").toRealPath().toString()+"/src/cine/storage/");
-        storeArchive.storeErrors(error, storage);
+        storeArchive.storeErrors(error,storage);
     }
 
     public static String nameArchiveGenerate(String name) {

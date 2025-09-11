@@ -1,13 +1,12 @@
-package main.projects.src_ProyectoButacas.helpers;
+package src_ProyectoButacas.helpers;
 
-import src.main.projects.src_ProyectoButacas.validateItem.*;
-import src.main.projects.src_ProyectoButacas.objects.*;
+import src_ProyectoButacas.objects.ArchieUtil;
+import src_ProyectoButacas.validateItem.Validate;
+
+
 import java.io.IOException;
 import java.util.Objects;
 import java.util.Scanner;
-
-import cinema.Validate.Validate;
-import main.projects.src_ProyectoButacas.objects.Bill;
 
 
 public class consultData {

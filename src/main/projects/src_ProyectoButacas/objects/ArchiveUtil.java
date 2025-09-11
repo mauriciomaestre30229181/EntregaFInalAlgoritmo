@@ -1,4 +1,4 @@
-package main.projects.src_ProyectoButacas.objects;
+package src_ProyectoButacas.objects;
 
 import java.io.*;
 import java.util.Objects;

@@ -1,11 +1,10 @@
-package main.projects.src_ProyectoButacas.helpers;
+package src_ProyectoButacas.helpers;
 
 
 import java.io.IOException;
 import java.util.Scanner;
 
-import main.projects.src_ProyectoButacas.objects.ArchiveUtil;
-import src.main.projects.src_ProyectoButacas.objects.*;
+import src_ProyectoButacas.objects.ArchiveUtil;
 
 public class consultMain {
     public static void consultDataMain(String option, ArchiveUtil storage)throws IOException {
