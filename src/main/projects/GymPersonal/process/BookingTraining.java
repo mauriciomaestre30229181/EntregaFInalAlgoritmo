@@ -1,7 +1,7 @@
-package GymPersonal.process;
+package main.projects.GymPersonal.process;
 
-import GymPersonal.validateItem.Validate;
-import GymPersonal.helpers.ConsultData;
+import main.projects.GymPersonal.validateItem.Validate;
+import main.projects.GymPersonal.helpers.ConsultData;
 import java.io.IOException;
 
 
