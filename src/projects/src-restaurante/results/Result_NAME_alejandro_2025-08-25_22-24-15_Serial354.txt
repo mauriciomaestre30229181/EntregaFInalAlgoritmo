@@ -1,4 +1,0 @@
-Cliente: alejandro
------------------------------------------------------------
-cafe - Cantidad: 1 - Precio: $50.0 - Subtotal: $50.0
-Total de alejandro: $50.0

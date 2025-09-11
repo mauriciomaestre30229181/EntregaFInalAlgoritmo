@@ -1,9 +1,0 @@
-Pilates,0,0,FRACASO
-Boxeo Fit,0,0,FRACASO
-Funcionales,0,0,FRACASO
-TRX,0,0,FRACASO
-Body Power,0,0,FRACASO
-Cardio Step,0,0,FRACASO
-Power Bike,0,0,FRACASO
-Yoga,0,0,FRACASO
-Reformer: Pilates,0,0,FRACASO
