@@ -1,0 +1,23 @@
+Factura
+Mesa: 1
+
+Cliente: migdalis
+-----------------------------------------------------------
+pasta con camaron - Cantidad: 1 - Precio: $60.0 - Subtotal: $60.0
+te verde - Cantidad: 2 - Precio: $45.0 - Subtotal: $90.0
+Total de migdalis: $150.0
+
+Cliente: aithzu
+-----------------------------------------------------------
+pasta carbonara - Cantidad: 1 - Precio: $70.0 - Subtotal: $70.0
+Total de aithzu: $70.0
+
+Cliente: alejandro
+-----------------------------------------------------------
+pizza - Cantidad: 1 - Precio: $50.0 - Subtotal: $50.0
+cervezas - Cantidad: 10 - Precio: $20.0 - Subtotal: $200.0
+malta - Cantidad: 3 - Precio: $35.0 - Subtotal: $105.0
+Total de alejandro: $355.0
+
+-----------------------------------------------------------
+Total General de la Mesa: $575.0
