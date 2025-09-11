@@ -1,6 +1,6 @@
-package GymPersonal.validateItem;
+package main.projects.GymPersonal.validateItem;
 
-import GymPersonal.helpers.ConsultData;
+import main.projects.GymPersonal.helpers.ConsultData;
 
 
 import java.io.BufferedWriter;
@@ -15,7 +15,7 @@ import java.time.format.DateTimeParseException;
 import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;
-import static GymPersonal.process.BookingTraining.*;
+import static main.projects.GymPersonal.process.BookingTraining.*;
 
 
 public class Validate {

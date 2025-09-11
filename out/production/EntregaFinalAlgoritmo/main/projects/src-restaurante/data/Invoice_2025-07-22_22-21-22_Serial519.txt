@@ -1,0 +1,16 @@
+Factura
+Mesa: 20
+
+Cliente: maria
+-----------------------------------------------------------
+cafe con leche - Cantidad: 1 - Precio: $20.0 - Subtotal: $20.0
+galleta - Cantidad: 3 - Precio: $15.0 - Subtotal: $45.0
+Total de maria: $65.0
+
+Cliente: alejandro
+-----------------------------------------------------------
+cafe fuerte - Cantidad: 2 - Precio: $30.0 - Subtotal: $60.0
+Total de alejandro: $60.0
+
+-----------------------------------------------------------
+Total General de la Mesa: $125.0

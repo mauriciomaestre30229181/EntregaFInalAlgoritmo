@@ -1,11 +1,11 @@
-package GymPersonal.main;
+package main.projects.GymPersonal.main;
 
 // Mauricio Maestre - 30229181
 // Miguel Maestre - 29750704
 
-import GymPersonal.helpers.ConsultDataMain;
-import GymPersonal.process.ProcessMain;
-import GymPersonal.validateItem.Validate;
+import main.projects.GymPersonal.helpers.ConsultDataMain;
+import main.projects.GymPersonal.process.ProcessMain;
+import main.projects.GymPersonal.validateItem.Validate;
 
 import java.io.IOException;
 import java.nio.file.Paths;

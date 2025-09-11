@@ -1,13 +1,13 @@
-package GymPersonal.process;
+package main.projects.GymPersonal.process;
 
-import GymPersonal.repositories.ArchiveUtil;
-import GymPersonal.validateItem.Validate;
-import GymPersonal.composables.StoreArchive;
+import main.projects.GymPersonal.repositories.ArchiveUtil;
+import main.projects.GymPersonal.validateItem.Validate;
+import main.projects.GymPersonal.composables.StoreArchive;
 
 import java.io.IOException;
 import java.nio.file.Paths;
 
-import static GymPersonal.process.BookingTraining.*;
+import static main.projects.GymPersonal.process.BookingTraining.*;
 
 public class PaymentTraining {
     static int availableCreds, creditCostPerClass,pricePerCredit;

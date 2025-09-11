@@ -1,11 +1,11 @@
-package GymPersonal.Nutrition;
+package main.projects.GymPersonal.Nutrition;
 
-import GymPersonal.helpers.ConsultData;
-import GymPersonal.validateItem.Validate;
+import main.projects.GymPersonal.helpers.ConsultData;
+import main.projects.GymPersonal.validateItem.Validate;
 
 import java.io.IOException;
 
-import static GymPersonal.process.BookingTraining.*;
+import static main.projects.GymPersonal.process.BookingTraining.*;
 
 public class BookingNutrition {
     public static int creditCostPerItem;
