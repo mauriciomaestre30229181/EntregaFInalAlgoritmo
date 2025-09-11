@@ -1,8 +1,0 @@
-nombre,cedula,genero,plan,orden
-Mauricio Maestre,30229181,M,Plan de Nutricion Semanal,Ensalada de pollo a la plancha con quinoa y aguacate
-Mauricio Maestre,30229181,M,Plan de Nutricion Semanal,Bowl de arroz con salmon y esparragos
-Mauricio Maestre,30229181,M,Plan de Nutricion Semanal,Omelette con vegetales y waffles de avena
-Sofía Lobo,26421302,F,Plan de Nutricion Mensual,Merengada de Proteina: Elite
-Gabriela Chiaramonte,31541738,F,Plan de Nutricion Semanal,Bowl de arroz con salmon y esparragos
-Haymara D'Armas,12959357,F,Plan de Nutricion Semanal,Barra de proteina
-Haymara D'Armas,12959357,F,Plan de Nutricion Semanal,Yogurt de fruta natural

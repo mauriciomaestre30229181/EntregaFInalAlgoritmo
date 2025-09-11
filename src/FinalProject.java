@@ -24,7 +24,7 @@ public class FinalProject {
     public static void showMenu(List<FinalProject> projectsList) {
 
         System.out.println("\n" + "=".repeat(50));
-        System.out.println("            MENÚ DE PROYECTOS");
+        System.out.println("                 MENÚ DE PROYECTOS");
         System.out.println("=".repeat(50));
         System.out.println("Proyectos disponibles:");
 
@@ -42,69 +42,66 @@ public class FinalProject {
     public static List<FinalProject> initializeProjects() {
         List<FinalProject> lista = new List<>();
 
-        // Agregar los 8 proyectos
-        lista.insert(new FinalProject("Proyecto Gym", () -> {
+        lista.insert(new FinalProject("Sistema Gimnasio", () -> {
             try {
-                projects.GymPersonal.main.Main.main(new String[0]);
+                GymPersonal.main.Main.main(new String[0]);
             } catch (Exception e) {
                 System.out.println("Error ejecutando el proyecto Gym: " + e.getMessage());
             }
         }));
 
         // Proyecto 2
-        lista.insert(new FinalProject("Calculadora Científica", () -> {
-            System.out.println("Ejecutando calculadora científica...");
-            // Simular ejecución
-            try { Thread.sleep(1500); } catch (InterruptedException e) {}
-            System.out.println("Calculadora finalizada.");
+        lista.insert(new FinalProject("Sistema Factura Electrica", () -> {
+            try {
+                ElectricBill.arr.Main.main(new String[0]);
+            } catch (Exception e) {
+                System.out.println("Error ejecutando Sistema Factura Electrica: " + e.getMessage());
+            }
         }));
 
         // Proyecto 3
-        lista.insert(new FinalProject("Gestor de Tareas", () -> {
-            System.out.println("Ejecutando gestor de tareas...");
-            // Simular ejecución
-            try { Thread.sleep(1500); } catch (InterruptedException e) {}
-            System.out.println("Gestor de tareas finalizado.");
+        lista.insert(new FinalProject("Butacas de Cine", () -> {
+            try {
+                src_ProyectoButacas.Main.main(new String[0]);
+            } catch (Exception e) {
+                System.out.println("Error ejecutando Butacas de Cine: " + e.getMessage());
+            }
         }));
 
         // Proyecto 4
-        lista.insert(new FinalProject("Sistema de Reservas", () -> {
-            System.out.println("Ejecutando sistema de reservas...");
-            // Simular ejecución
-            try { Thread.sleep(1500); } catch (InterruptedException e) {}
-            System.out.println("Sistema de reservas finalizado.");
+        lista.insert(new FinalProject("JavaRace", () -> {
+            try {
+                JavaRace.Main.main(new String[0]);
+            } catch (Exception e) {
+                System.out.println("Error ejecutando JavaRace: " + e.getMessage());
+            }
         }));
 
         // Proyecto 5
-        lista.insert(new FinalProject("Juego de Memoria", () -> {
-            System.out.println("Ejecutando juego de memoria...");
-            // Simular ejecución
-            try { Thread.sleep(1500); } catch (InterruptedException e) {}
-            System.out.println("Juego de memoria finalizado.");
+        lista.insert(new FinalProject("Cinema", () -> {
+            try {
+                cinema.Main.main(new String[0]);
+            } catch (Exception e) {
+                System.out.println("Error ejecutando Cinema: " + e.getMessage());
+            }
         }));
 
         // Proyecto 6
-        lista.insert(new FinalProject("Clima Mundial", () -> {
-            System.out.println("Ejecutando aplicación de clima...");
-            // Simular ejecución
-            try { Thread.sleep(1500); } catch (InterruptedException e) {}
-            System.out.println("Aplicación de clima finalizada.");
+        lista.insert(new FinalProject("Sistema Restaurante", () -> {
+            try {
+                src_restaurant.main.Main.main(new String[0]);
+            } catch (Exception e) {
+                System.out.println("Error ejecutando el Sistema Restaurante: " + e.getMessage());
+            }
         }));
 
         // Proyecto 7
-        lista.insert(new FinalProject("Traductor Simple", () -> {
-            System.out.println("Ejecutando traductor...");
-            // Simular ejecución
-            try { Thread.sleep(1500); } catch (InterruptedException e) {}
-            System.out.println("Traductor finalizado.");
-        }));
-
-        // Proyecto 8
-        lista.insert(new FinalProject("Gestor de Contraseñas", () -> {
-            System.out.println("Ejecutando gestor de contraseñas...");
-            // Simular ejecución
-            try { Thread.sleep(1500); } catch (InterruptedException e) {}
-            System.out.println("Gestor de contraseñas finalizado.");
+        lista.insert(new FinalProject("Inventario Camisetas", () -> {
+            try {
+                src_inventario.arr.Main.main(new String[0]);
+            } catch (Exception e) {
+                System.out.println("Error ejecutando Inventario Camisetas: " + e.getMessage());
+            }
         }));
 
         return lista;

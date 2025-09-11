@@ -38,7 +38,7 @@ public class MainFinalProject {
                 option = -1;
             }
         } while (option != 0);
-        System.out.println("Fin del Super Proyecto.");
+        System.out.println("Fin del Proyecto Final Grupal de Algoritmos.");
         sc.close();
     }
 
